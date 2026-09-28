@@ -1,0 +1,43 @@
+# Earthenware Computer Goal
+
+> The Earthenware Computer that selects all of its own programs from a goal.
+
+## Purpose
+Explain this named build of the self-selecting computer under the Earthenware Computer Goal title. Source: fitzyracing1/earthenwarecomputer-Goal.
+
+## How it works (plain English)
+1. Name a goal.
+2. Select programs for that goal.
+3. Register the selection.
+4. Keep internet, browser, HTTP server, GPU awareness, and a terminal.
+
+## Key ideas
+- Earthenware Computer (the named machine)
+- Goal (what the machine is for)
+- Self-selection (it picks its own programs)
+
+## The actual code
+```
+# source: fitzyracing1/earthenwarecomputer-Goal
+goal = name_goal()
+select_and_register(goal)
+keep_terminal_and_net()
+```
+
+## Line-by-line translation
+1. name_goal() → “say the aim”
+2. select_and_register(goal) → “pick programs and write them down”
+3. keep_terminal_and_net() → “stay reachable”
+
+## Decisions the program makes
+- If a goal arrives → select programs
+- If the list changes → re-register
+
+## What a person would notice
+Same idea as the self-selecting computer, under the Earthenware name.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the source and name a goal.
